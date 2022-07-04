@@ -1,0 +1,70 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #d9d9d9;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.model-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* .image-upload-button-content button {
+  margin-bottom: 0.5rem;
+  font-family: sans-serif;
+  padding: 0.2rem 0.5rem;
+} */
+
+.image-item {
+  position: relative;
+  border: 1px solid #5a5a5a;
+  padding: 0.3rem;
+  background-color: #444;
+}
+
+.image-el {
+  cursor: pointer;
+}
+
+.image-drag-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.subtitle {
+  color: #909090;
+  border-bottom: 1px solid #404040;
+}
+
+.camera-modal {
+  background: none !important;
+  border: none !important;
+}
+
+.camera-modal .modal-body {
+  padding: 0;
+}
+
+.canvas-content {
+  z-index: 1;
+}
